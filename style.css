@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+   
+
+}
+ 
+
+.main-header{
+
+width: 100%;
+height: 64px;
+display: flex;
+justify-content:space-between;
+align-content: center;
+position: fixed;
+background-color: white;
+
+}
+.logo{
+    
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.i2{
+    
+    height: 100%;
+    width: 150px;
+}
+.i3{
+    
+    height: 100%;
+    width: 170px;
+    padding-right: 25px;
+}
+.i4{
+    
+    height: 100%;
+    width: 170px;
+    
+}
+.i5{
+    
+    height: 100%;
+    width: 150px;
+}
+.i6{
+
+    height: 100%;
+    width: 150px;
+    flex: 1;
+}
+.logotxt{
+    display: inline;
+    padding-left: 8px;
+}
+.logoimg{
+    
+    display: flex;
+justify-content:space-between;
+
+display: inline;
+
+    
+}
+#logoimg{
+    height: 25px;
+    width: 25px;
+   
+}
+.hlinks{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.hlinkcontainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+#hlinkstxt{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.downarrow{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    }
+.main-div{
+    width: 100%;
+    height: 1900px;
+}
+.m1{
+    height: 750px;
+    width: 100%;
+    background: url(images/in-price-sensitivity-q1fy22-pod0-desktop.jpg);
+  background-size: cover;
+           
+}
+.m2{
+    height: 100px;
+    width: 100%;
+    
+    font-family: Roboto,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+}
+.m3{
+    height: 540px;
+    width: 100%;
+    
+}
+.m4{
+    height: 360px;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.m5{
+    height: 60px;
+    width: 100%;
+    
+}
+.main-backround{
+    height: 750px;
+}
+.m1-containerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.m1txt{
+    display: flex;
+    flex-direction: column;
+   
+    width: 500px;
+    height: 100%    ;
+    padding-top: 300px ;
+    margin-left: 200px ;
+   padding-left: 30px;
+  
+    
+}
+div .m1txt{
+    color: white;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-weight: 700;
+}
+.para1{
+    text-align: left;
+    width: 500px;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none ;
+}
+.learn{
+    color: white;
+}
+.buybtn{
+    border-radius: 50px;
+    background-color: #1473e6;
+    border:none;
+    height: 32px;
+    width: 90px;
+}
+#buybtn{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.creativetxt,.boldtxt{
+    padding-top: 30px;
+    
+}
+.m2main {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.m2-containerdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.m2s{
+    padding-left: 20px;
+    color: #1473e6;
+}
+.m2sp{
+    color: #1473e6;
+    font-family: Roboto,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+}
+.buybtn:hover{
+    background-color: blue;
+}
+.hline{
+    width: 98%;
+ 
+
+}
+.linkm2:hover{
+    text-decoration: underline;
+   
+}
+.m3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.m3s{
+    height: 500px;
+    width: 400px;
+padding-top: 10px;
+padding-left: 25px;
+padding-right: 25px;
+margin-left: 30px;
+    
+}
+.m3s1{
+    background: url(images/m3second.jfif);
+    background-color: #1473e6;
+    background-size:cover;
+    
+}
+.m3s2{
+    background-color: #48586b;
+    background: url(images/m3first.jfif);
+    background-size:cover;
+}
+.m3s3{
+ display: flex;
+ flex-direction: column;
+ background-color: red; 
+ margin-right: 30px;
+    
+    
+}
+
+
+
+.m3s3-1{
+    background-color:red;
+  
+    height: 250px;
+
+}
+
+.m3s3-2{
+    background-color: #d10000;
+    background: url("images/homepage-CC-sm-pod-DC-e-sign-overlay-new-art V2.png.img (1).png");
+     background-size: cover;
+         height: 70%;
+         
+
+}
+.Comen-overtxt{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family:Roboto,sans-serif, adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI;
+   ;
+    padding-bottom: 5px;
+}
+.overtxt{
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    
+    padding-bottom: 7px;
+}
+.m3s3-1,.trial{
+    color: white;
+}
+.trial:hover{
+    text-decoration: underline;
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+.learn-more{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.m4{
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.4;
+    font-size: 13px;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    color: #505050;
+   
+}
+.m4 span{
+    display: block;
+    
+}
+.list4{
+    color: #505050;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    
+}
+.heading{
+    font-size: 14px;
+    line-height: 3;
+}
+.list4:hover{
+    color: #b3acac;
+}
+.m4-5container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+   
+    line-height: 50px;
+
+}
+.icon-img{
+    padding-left: 8px;
+    height: 25px;
+    padding-top: 12px;
+    padding-right: 5px;
+}
+.icon-reder{
+    color: #505050;
+}
+.icon-reder:hover{
+    color: #b3acac;
+}
+.m5-left{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    
+    
+    
+}
+.footer-icons{
+    padding-left: 25px;
+display: inline;
+}
+.icon-footer{
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+.l4{
+    color: #505050;
+    display: inline;
+}
+.footertxt{
+    font-weight: 10px;
+    font-size: 10px;
+}
+.m5-right{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    padding-top: 23px;
+    padding-left: 150px;
+   
+    
+}
+.m5{
+    display: flex;
+    justify-content: flex-start;
+}
+.footertxt {
+    color: #4B4B4B;
+    font-size: 11px;
+}
